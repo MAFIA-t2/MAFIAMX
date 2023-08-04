@@ -435,7 +435,7 @@ def m4(ids,names,passlist):
                         elif 'checkpoint' in MX:
                                 if 'y' in pcp:
                                         print(f'\r\r\x1b[38;5;208m [MAFIA•CP] '+ids+' • '+pas+'\033[1;97m')
-                                        open(f'/sdcard/MX•CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        open(f'/sdcard/MAFIA•CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
